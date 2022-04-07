@@ -1,14 +1,15 @@
 body {
-    font-size: 16px;
+    font-size: 10px;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #424242;
 }
 h1 {
-    font-size: 36px;
-    color: blue;
+    font-size: 20px;
+    color:white;
 }
 h2 {
-    font-size: 30px;
-    color: green;
+    font-size: 14px;
+    color: white;
 }
 h3 {
     font-size: 24px;
@@ -28,4 +29,46 @@ a {
 }
 p {
     font-weight: 300;
+    color: white;
+}
+.kafelek {
+    border: 1px solid #2ddfe6;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    background-color: #11181e;
+}
+
+.kafelek-naglowek {
+    border-bottom: 1px solid #2ddfe6;
+    background-image: url(./matrix_1.png);
+    background-size: cover;
+    padding: 10px;
+    margin-bottom:2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.kafelek-naglowek h1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.kafelek-naglowek h2 {
+    padding-bottom: 10px;
+
+}
+.kafelek-tresc {
+    border-top: 1px solid #2ddfe6;
+    border-bottom: 1px solid #2ddfe6;
+    padding: 10px 10px 30px 10px;
+
+}
+.kafelek-stopka {
+    text-align: right;
+    padding: 10px 10px 25px 10px;
+    margin-top: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #2ddfe6;
 }
